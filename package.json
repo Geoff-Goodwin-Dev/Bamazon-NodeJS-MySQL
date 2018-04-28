@@ -1,0 +1,23 @@
+{
+  "name": "bamazon-nodejs-mysql",
+  "version": "1.0.0",
+  "description": " An Amazon-like storefront application built using Node.JS and MySQL",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geoff-Goodwin-Dev/Bamazon-NodeJS-MySQL.git"
+  },
+  "author": "Geoff Goodwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geoff-Goodwin-Dev/Bamazon-NodeJS-MySQL/issues"
+  },
+  "homepage": "https://github.com/Geoff-Goodwin-Dev/Bamazon-NodeJS-MySQL#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}
