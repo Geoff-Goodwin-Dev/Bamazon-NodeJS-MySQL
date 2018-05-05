@@ -8,7 +8,9 @@
 In this activity, you'll be creating an Amazon-like storefront with the MySQL skills you learned this week. The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
 ```
 
-* **See a quick walk-through demonstration of the game via the Bamazon_Walkthrough.webm file in this repository**
+* **See a quick walk-through demonstration of the application for the different experiences via:**
+    * BamazonCustomer_Walkthrough.webm 
+    * BamazonManager_Walkthrough.webm
 
 ## Getting Started
 
@@ -19,6 +21,7 @@ These instructions will get you a copy of the project up and running on your loc
 * This application also will require the following:
     * https://www.npmjs.com/package/inquirer
     * https://www.npmjs.com/package/mysql
+    * https://www.npmjs.com/package/cli-table
     
 * There are no APIs used in this application so there are no additional setup instructions regarding credential management
 * Standard behavior of "npm install" should apply given the provided package.json details
