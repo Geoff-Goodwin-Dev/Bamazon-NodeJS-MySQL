@@ -5,7 +5,7 @@
 * **Context:** This is the twelfth week's homework assignment as a part of the Georgia Tech Coding Bootcamp. In this assignment, we are building a NodeJS based application with MySQL for database management and with interactive prompts (through the Inquirer NPM package).  The homework's high level instructions are as follows:
 
 ```
-In this activity, you'll be creating an Amazon-like storefront with the MySQL skills you learned this week. The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
+In this activity, you'll be creating an Amazon-like storefront with the MySQL skills you learned this week. The app will take in orders from customers and deplete stock from the store's salesByDeptArray. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
 ```
 
 * **See a quick walk-through demonstration of the application for the different experiences via:**
@@ -43,8 +43,11 @@ These are a set of step-by-step series of examples that tell you have to get a d
 1.) Install NodeJS & some MySQL editor (such as MySQL Workbench)
 2.) Clone Git repository
 3.) Run 'npm install' from local git directory
-4.) Run the file by command 'node index.js'
-5.) Play the game and have a good time!
+4.) Run the file by command based on the user type experience you'd like to experience:
+        a.) Customer Experience: bamazonCustomer.js
+        b.) Manager Experience: bamazonManager.js
+        c.) Supervisor Experience: bamazonSupervisor.js
+5.) Try out the application and enjoy!
 ```
 
 ## Running the unit-level tests
@@ -90,6 +93,7 @@ Not Deployed as this is a NodeJS Application for testing purposes
 ## Versioning
 
 * version 1.0 - Initialization of project
+* version 2.0 - Updated logic for all three experiences
 
 ## Authors
 
